@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Engine-Sarl</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+
+        /* ...Feedback form styles... */
+
+
+section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    min-height: 80vh;
+    background: #f5f7fa;
+    color: black;
+    padding: 40px 0;
+}
+
+.section-subtitle{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-box {
+    justify-content: center;  
+    align-items: center;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 40px 32px;
+    max-width: 480px;
+    width: 100%;
+    margin-right: 0;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #222;
+}
+
+.form-row input,
+.form-row textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fafbfc;
+    transition: border 0.2s;
+}
+
+.form-row input:focus,
+.form-row textarea:focus {
+    border-color: #0078d7;
+    outline: none;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+.submit-button button {
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit-button button:hover {
+    background: #005fa3;
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div>YOUR BEST LUBRICANTS SUPPLIER</div>
+    <!-- Header -->
+    <header>
+
+        <input type="checkbox" name="" id="menu-toggle">
+        <label for="menu-toggle" class="fas fa-bars"></label>
+        
+        <img src="My images/Enginesarl.png" alt="" class="logo" width="200px" height="150px">
+        
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contactus.html" class="active">Contact Us</a></li>
+        </ul>
+
+        <select class="language-select" aria-label="Select Language">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+        </select>
+
+    </header>
+
+    <!-- Feature -->
+
+    <!-- Feedback form -->
+    <section class="feedback-section">
+        <div class="contact-box">
+
+            <div class="section-subtitle">
+                Your feedback matters to us. Help us enhance your experience by sharing how we can make our website more useful and enjoyable for you.
+            </div>
+
+            <div class="right">
+
+                <div class="form-row">
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" placeholder="e.g, John stiward" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="organisation">Organisation</label>
+                    <input type="text" id="organisation" placeholder="Company name" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">E-mail or Phone number <address></address></label>
+                    <input type="text" id="email" placeholder="company@gmail.com " required>
+                </div>
+                
+                <div class="form-row">
+                    <label for="help">Feedback</label>
+                    <textarea id="help" placeholder="Please let us know how we can improve our website to serve you better and make your visit more enjoyable." required></textarea>
+                </div>
+
+                <div class="submit-button">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </div>
+        </div>
+        
+
+    </section>
+       
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container flex">
+
+            <!-- company details-->
+            <div class="footer-col">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Newsletter Signup</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Address details-->
+            <div class="footer-col">
+                <h4>ADDRESS</h4>
+                <ul>
+                    <li>Douala-Deido Bessengue</li>
+                </ul>
+            </div>
+            
+            <!-- contacts details-->
+            <div class="footer-col">
+                <h4>CONTACT INFO</h4>
+                <ul>
+                    <li>+237 670194301</li>
+                    <li>Enginsarlyahoo.com</li>
+                </ul>
+            </div>
+
+            <!-- Help details-->
+            <div class="footer-col">
+                <h4>HELP</h4>
+                <ul>
+                    <li><a href="feedback.html">Website Feedback</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="contactus.html">Contact Form</a></li>
+                </ul>
+            </div>
+
+            <!-- social media details-->
+            <div class="footer-col">
+                <h4>FOLLOW US</h4>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <div class="copyrightText">
+        <p>© Engine-Sarl 2025 | All Rights Reserved. </p>
+    </div>
+</body>
+
+</html>
