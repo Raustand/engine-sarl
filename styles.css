@@ -643,6 +643,18 @@ section p {
     letter-spacing: 1px;
 }
 
+
+p span{
+    color: #9ea2c4;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    text-underline-offset: 8px;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    letter-spacing: 1px;
+}
 .about-section h3 {
     color: #9ea2c4;
     margin-top: 0;
