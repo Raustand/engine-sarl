@@ -612,6 +612,7 @@ section {
 
 section p { 
     padding: 40px 0 0 40px;
+    text-align: start;
 }
 
 
@@ -657,6 +658,11 @@ section p {
 }
 
 /*  home page section*/
+
+.about-text{
+
+    text-align: start;
+}
 
 .about-sections {
     background: #fff;
@@ -772,7 +778,7 @@ section p {
       text-decoration: none;
       border-radius: 6px;
       font-size: 0.95rem;
-      transition: background 0.2s ease;
+      transition: 0.2s ease;
     }
 
     .product-btn:hover {
