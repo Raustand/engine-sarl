@@ -232,7 +232,7 @@ header ul li a:focus {
 
 .search-bar button {
     padding: 8px 14px;
-    background: #3342c9;
+    background: #890000;
     color: #fff;
     border: none;
     border-radius: 0 18px ;
@@ -244,7 +244,7 @@ header ul li a:focus {
 }
 
 .search-bar button:hover {
-    background: #da0808;
+    background: #edecf0;
     color: #222;
 }
 
