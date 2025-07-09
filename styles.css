@@ -9,15 +9,15 @@ body {
 
 
 /* Branding details */
-
-body>div {
+/* body>div {
     background-color: rgba(51, 66, 201, 0.85);
     margin: 0;
     padding: 20px;
     color: rgb(221, 224, 13);
     text-align: end;
     font-weight: 500;
-}
+} */
+
 
 html, body {
   max-width: 100%;
@@ -154,7 +154,6 @@ header ul li a.active,
 header ul li a:active,
 header ul li a:focus {
     color: rgb(153, 5, 5);
-    font-weight: bold;
 }
 
 
@@ -163,7 +162,7 @@ header ul li a:focus {
 .language-select {
     padding: 7px 16px;
     margin-left: 18px;
-    border-radius: 18px;
+    border-radius: 1px;
     border: 1px solid #ccc;
     background: #eef2fa;
     color: #222;
@@ -211,6 +210,7 @@ header ul li a:focus {
 
 /* Search bar wrapper  */
 .search-bar-bg {
+    background-color: rgba(51, 66, 201, 0.85);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -220,11 +220,10 @@ header ul li a:focus {
     position: relative;
 }
 
-
 .search-bar input[type="text"] {
     padding: 8px 12px;
     border: none;
-    border-radius: 18px 0 0 18px;
+    border-radius: 0;
     outline: none;
     font-size: 1rem;
     background: #eef2fa;
@@ -236,10 +235,10 @@ header ul li a:focus {
     background: #3342c9;
     color: #fff;
     border: none;
-    border-radius: 0 18px 18px 0;
+    border-radius: 0 18px ;
     cursor: pointer;
     font-size: 1rem;
-    transition: background 0.2s;
+    transition: 0.2s;
     display: flex;
     align-items: center;
 }
