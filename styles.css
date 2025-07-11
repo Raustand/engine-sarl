@@ -53,7 +53,7 @@ header {
     display: none; 
 }
 
-/* Responsive styles for mobile */
+/* Responsive toggle styles for mobile */
 @media (max-width: 900px) {
     .fas.fa-bars {
         display: block;
@@ -61,8 +61,8 @@ header {
     .navbar {
         display: none;
         flex-direction: column;
-        position: absolute;
-        top: 100px; 
+        position: left;
+        top: 50px; 
         left: 0;
         width: 100%;
         background: #fff;
@@ -671,7 +671,6 @@ p span{
 /*  home page section*/
 
 .about-text{
-
     text-align: start;
 }
 
